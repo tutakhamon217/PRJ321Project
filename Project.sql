@@ -228,11 +228,8 @@ INSERT [dbo].[OrderDetail] ([billid], [pname], [quantity]) VALUES (19, N'Waterme
 INSERT [dbo].[OrderDetail] ([billid], [pname], [quantity]) VALUES (19, N'Mango', 2)
 INSERT [dbo].[OrderDetail] ([billid], [pname], [quantity]) VALUES (20, N'Grapes', 1)
 INSERT [dbo].[OrderDetail] ([billid], [pname], [quantity]) VALUES (20, N'Mango', 1)
-<<<<<<< HEAD
 INSERT [dbo].[OrderDetail] ([billid], [pname], [quantity]) VALUES (22, N'Mango1456', 1)
-=======
-INSERT [dbo].[OrderDetail] ([billid], [pname], [quantity]) VALUES (22, N'Mango123', 1)
->>>>>>> 35dbca3835017f571926d9ba4c121268fd417673
+
 GO
 INSERT [dbo].[Product] ([id], [name], [image], [price], [Describes], [PriceAfter], [rest], [idtype], [sold]) VALUES (2, N'Grapes', N'../images/product-2.jpg', 46, N'Grapes from Italia, sweet, fragrant for 1 week', 30, 29, 2, 0)
 INSERT [dbo].[Product] ([id], [name], [image], [price], [Describes], [PriceAfter], [rest], [idtype], [sold]) VALUES (3, N'Mango', N'../images/product-3.jpg', 26, N'Ripe mangoes from Vietnam, used for 3 days', 17, 16, 2, 0)
